@@ -9,6 +9,7 @@ before_script:
 
 install: true
 
+
 script: 
  - cp testresults.xml  ./shippable/testresults
  - echo "<script> alert('hello user')</script>"
